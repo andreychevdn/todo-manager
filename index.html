@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Сайт Никиты</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="app">
+    <h1>Todo Manager</h1>
+
+    <div class="input-area">
+      <input id="taskInput">
+      <button id="addBtn">Добавить</button>
+    </div>
+
+    <div class="filters">
+      <button id="filterAll">Все</button>
+      <button id="filterActive">Активные</button>
+      <button id="filterCompleted">Выполненные</button>
+    </div>
+
+    <div class="sortControls">
+      <button id="sortDefault">По умолчанию</button>
+      <button id="sortAsc">A → Я</button>
+      <button id="sortDesc">Я → A</button>
+    </div>
+
+    <input type="text" id="searchInput" placeholder="Поиск задач...">
+    <ul id="taskList"></ul>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
